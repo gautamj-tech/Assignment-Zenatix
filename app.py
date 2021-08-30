@@ -17,7 +17,6 @@ def getListOfProcessMemory():
            pinfo = proc.as_dict(attrs=['pid'])
            pinfo['Memory_Percentage'] = round((proc.memory_info().vms / Total_Memory),4)*100
            pinfo['CPU_Percentage'] = proc.cpu_percent(interval=1)
-
            # Append dict to list
            listOfProcObjects.append(pinfo);
        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
@@ -29,7 +28,6 @@ def main():
         es.index(index="localprocess", body={"pid": elem['pid'],
                                     "cpu_percentage": elem['CPU_Percentage'],
                                     "memory_percentage": elem['Memory_Percentage'],
-                                     "timestamp": datetime.now()})
-        
+                                     "timestamp": datetime.now()})        
 if __name__ == '__main__':
    main()
