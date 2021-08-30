@@ -5,7 +5,7 @@ Total_Memory= psutil.virtual_memory()[0]
 es = Elasticsearch(host='localhost', port=9200)
 #Creating a new indices
 #es.indices.create(index="localprocess",ignore=400)
-def getListOfProcessSortedByMemory():
+def getListOfProcessMemory():
     '''
     Get list of running process Memory Usage
     '''
@@ -24,7 +24,7 @@ def getListOfProcessSortedByMemory():
            pass
     return listOfProcObjects
 def main():
-    listOfRunningProcess = getListOfProcessSortedByMemory()
+    listOfRunningProcess = getListOfProcessMemory()
     for elem in listOfRunningProcess:
         es.index(index="localprocess", body={"pid": elem['pid'],
                                     "cpu_percentage": elem['CPU_Percentage'],
