@@ -1,0 +1,139 @@
+{
+    "took" : 7,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 1,
+      "successful" : 1,
+      "skipped" : 0,
+      "failed" : 0
+    },
+    "hits" : {
+      "total" : {
+        "value" : 286,
+        "relation" : "eq"
+      },
+      "max_score" : 1.0,
+      "hits" : [
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "jT0xlnsBg3H0uwv5Y92m",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 0,
+            "cpu_percentage" : 195.3,
+            "memory_percentage" : 0.0,
+            "timestamp" : "2021-08-30T14:03:43.480665"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "jj0xlnsBg3H0uwv5g91n",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 4,
+            "cpu_percentage" : 10.8,
+            "memory_percentage" : 0.0,
+            "timestamp" : "2021-08-30T14:03:52.444392"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "jz0xlnsBg3H0uwv5g93g",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 56,
+            "cpu_percentage" : 0.0,
+            "memory_percentage" : 0.0,
+            "timestamp" : "2021-08-30T14:03:52.607391"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "kD0xlnsBg3H0uwv5hN25",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 60,
+            "cpu_percentage" : 0.0,
+            "memory_percentage" : 0.02,
+            "timestamp" : "2021-08-30T14:03:52.824086"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "kT0xlnsBg3H0uwv5hd03",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 108,
+            "cpu_percentage" : 0.0,
+            "memory_percentage" : 0.15,
+            "timestamp" : "2021-08-30T14:03:52.948138"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "kj0xlnsBg3H0uwv5hd2O",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 264,
+            "cpu_percentage" : 29.2,
+            "memory_percentage" : 0.15,
+            "timestamp" : "2021-08-30T14:03:53.038081"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "kz0xlnsBg3H0uwv5hd3H",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 348,
+            "cpu_percentage" : 0.0,
+            "memory_percentage" : 0.03,
+            "timestamp" : "2021-08-30T14:03:53.094405"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "lD0xlnsBg3H0uwv5ht0O",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 472,
+            "cpu_percentage" : 0.0,
+            "memory_percentage" : 0.11,
+            "timestamp" : "2021-08-30T14:03:53.163569"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "lT0xlnsBg3H0uwv5ht1l",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 520,
+            "cpu_percentage" : 0.0,
+            "memory_percentage" : 0.04,
+            "timestamp" : "2021-08-30T14:03:53.252474"
+          }
+        },
+        {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "lj0xlnsBg3H0uwv5ht2p",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 612,
+            "cpu_percentage" : 0.0,
+            "memory_percentage" : 0.01,
+            "timestamp" : "2021-08-30T14:03:53.320436"
+          }
+        }
+      ]
+    }
+  }
