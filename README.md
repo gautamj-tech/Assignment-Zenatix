@@ -1,7 +1,8 @@
 # Assignment-Zenatix-Solutions 
 Ports<br>
-9200 for Elastic Search <br>
-5601 for Kibana<br>
+<b>9200 for Elastic Search.</b><br>
+<b>5601 for Kibana.</b><br>
+Repository Includes: <br>
 <ol>
  <li>Python code of the application.</li>
  <li>Data model of Elasticsearch (in a text file).</li>
