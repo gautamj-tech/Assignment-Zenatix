@@ -1,4 +1,7 @@
 # Assignment-Zenatix-Solutions 
+<h1>
+ Memory % = Free Memory for a particular PID/ Total Memory
+ CPU %= 
 Ports<br>
 <b>9200 for Elastic Search.</b><br>
 <b>5601 for Kibana.</b><br>
