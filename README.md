@@ -1,7 +1,7 @@
 # Assignment-Zenatix-Solutions 
 <h2>
- Memory % = Free Memory for a particular PID/ Total Memory <br>
- CPU % = 
+ Memory % = Free Memory for a particular PID available / Total Memory <br>
+ CPU % = CPU % gain for interval of 1 PID
  </h2>
 Ports<br>
 <b>9200 for Elastic Search.</b><br>
