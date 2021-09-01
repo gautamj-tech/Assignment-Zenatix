@@ -11,6 +11,6 @@ Repository Includes: <br>
  <li>The DockerCompose file for Kibana and ElasticSearch.</li>
  </ol>
 <h2>
- Memory % = Free Memory for a particular PID available / Total Memory <br>
+ Memory % = Free Memory for a particular PID available / Total Memory available <br>
  CPU % = CPU % gain for interval of 1 PID
  </h2>
