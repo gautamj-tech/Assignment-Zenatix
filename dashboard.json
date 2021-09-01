@@ -122,6 +122,18 @@
             "timestamp" : "2021-08-30T14:03:53.252474"
           }
         },
+          {
+          "_index" : "localprocess",
+          "_type" : "_doc",
+          "_id" : "lT0xlnsBg3H0uwv5ht1l",
+          "_score" : 1.0,
+          "_source" : {
+            "pid" : 586,
+            "cpu_percentage" : 42.29,
+            "memory_percentage" : 40.03,
+            "timestamp" : "2021-08-30T14:03:53.252474"
+          }
+        },
         {
           "_index" : "localprocess",
           "_type" : "_doc",
