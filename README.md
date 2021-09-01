@@ -1,5 +1,6 @@
 # Assignment-Zenatix-Solutions 
-Ports
+Ports<br>
+9200 for Elastic Search <br>
 5601 for Kibana<br>
 <ol>
  <li>Python code of the application.</li>
