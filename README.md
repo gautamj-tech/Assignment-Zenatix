@@ -8,7 +8,6 @@ Repository Includes: <br>
  <li>Screenshot of the dashboard in Kibana/Redash.</li>
   <li>Screenshot of TImechart widget with more than 40% (CPU and Memory)</li>
  <li>JSON export of dashboard in Kibana/Redash.</li>
- <li>The DockerCompose file for Kibana and ElasticSearch.</li>
  </ol>
 <h2>
  Memory % = Free Memory for a particular PID available / Total Memory available <br>
